@@ -16,9 +16,7 @@ The project consists of the following files:
 ## How to Run
 
 1. Install the required packages listed in `requirements.txt` using the following command:
-```
-pip install -r requirements.txt
-```
+```pip install -r requirements.txt```
 
 2. Run the FastAPI server using Uvicorn with the following command:
 ```uvicorn main:app --reload```

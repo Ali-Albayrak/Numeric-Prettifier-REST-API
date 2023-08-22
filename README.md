@@ -16,13 +16,19 @@ The project consists of the following files:
 ## How to Run
 
 1. Install the required packages listed in `requirements.txt` using the following command:
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 2. Run the FastAPI server using Uvicorn with the following command:
-```uvicorn main:app --reload```
+```
+uvicorn main:app --reload
+```
 
 
 ## How to Test
 
 1. Run the unit tests defined in `tests.py` using the following command:
-```python -m unittest tests.py```
+```
+python -m unittest tests.py
+```
